@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{f7c852b7-08bc-47fe-8a77-29f83af2b43e}">
+		<property name="name">
+			<value>landings</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2e7ef078-d4e0-47af-8a50-387fd7ce197a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{859165e1-c659-4553-9d44-e4a67d638367}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{859165e1-c659-4553-9d44-e4a67d638367}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>lwood</value>
+			<value>lrock</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

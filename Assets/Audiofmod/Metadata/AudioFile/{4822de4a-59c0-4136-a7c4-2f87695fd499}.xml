@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{4822de4a-59c0-4136-a7c4-2f87695fd499}">
+		<property name="assetPath">
+			<value>landing/lwood/landing_wood_2.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.61441666666666672</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a09d628e-d0f4-4c8d-a23c-f56cce4c1dd1}</destination>
+		</relationship>
+	</object>
+</objects>

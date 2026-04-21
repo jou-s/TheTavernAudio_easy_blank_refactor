@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{f3baeeb4-0240-4073-bc8b-63f15f5f5673}">
+		<property name="assetPath">
+			<value>landing/lwood/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a09d628e-d0f4-4c8d-a23c-f56cce4c1dd1}</destination>
+		</relationship>
+	</object>
+</objects>

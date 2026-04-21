@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{4f649f33-f67a-4c3f-92ff-dc17fffc9421}">
+		<property name="name">
+			<value>mouses</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2e7ef078-d4e0-47af-8a50-387fd7ce197a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{beceeeea-f7f0-410f-a667-0c48e47ae50c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{beceeeea-f7f0-410f-a667-0c48e47ae50c}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>mouses</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
