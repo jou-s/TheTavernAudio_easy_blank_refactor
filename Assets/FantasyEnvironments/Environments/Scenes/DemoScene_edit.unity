@@ -251,7 +251,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &110847518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -929,7 +929,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &236738892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1773,7 +1773,7 @@ GameObject:
   - component: {fileID: 431090424}
   m_Layer: 6
   m_Name: Wood
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2894,25 +2894,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Footsteps
   footstepsEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -686735388
+      Data2: 1211342956
+      Data3: -392696435
+      Data4: -56648745
+    Path: event:/footsteps/footsteps
   jumpEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1275334807
+      Data2: 1285806731
+      Data3: -632280438
+      Data4: -1417818903
+    Path: event:/jump
   landEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1318583934
+      Data2: 1130600321
+      Data3: 1789862836
+      Data4: 989418224
+    Path: event:/landing
   isGrounded: 1
   isJumping: 0
 --- !u!1 &688602384
@@ -3349,7 +3349,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &859241406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7675,7 +7675,7 @@ GameObject:
   - component: {fileID: 2131066730}
   m_Layer: 7
   m_Name: Stone
-  m_TagString: Untagged
+  m_TagString: Stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
