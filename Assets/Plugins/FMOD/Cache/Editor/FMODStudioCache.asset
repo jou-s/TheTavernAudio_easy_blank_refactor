@@ -177,10 +177,10 @@ MonoBehaviour:
   Path: Assets/Audiofmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639123957055253284
+  lastModified: 639136060478537470
   FileSizes:
   - Name: Desktop
-    Value: 1326
+    Value: 1400
   Exists: 1
 --- !u!114 &-3729944186411553257
 MonoBehaviour:
@@ -224,10 +224,10 @@ MonoBehaviour:
   Path: Assets/Audiofmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639123957055238143
+  lastModified: 639136060478528146
   FileSizes:
   - Name: Desktop
-    Value: 5057632
+    Value: 5057920
   Exists: 1
 --- !u!114 &-2879720072022720019
 MonoBehaviour:
@@ -393,7 +393,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -4390287512026710578}
   cacheVersion: 131859
-  cacheTime: 639123957055253284
+  cacheTime: 639136060478537470
   SerializableEventsDict:
   - key: event:/amb/amb_tavern
     index: 0
