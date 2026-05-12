@@ -56,6 +56,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 800
+--- !u!114 &-7341962723343092206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Outside
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: snapshot:/Outside
+  Guid:
+    Data1: -123363123
+    Data2: 1321745986
+    Data3: -700947780
+    Data4: -525875234
+  Banks:
+  - {fileID: -3397890014935947704}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-6493580893659759592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,10 +204,10 @@ MonoBehaviour:
   Path: Assets/Audiofmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639136060478537470
+  lastModified: 639142106264197159
   FileSizes:
   - Name: Desktop
-    Value: 1400
+    Value: 1448
   Exists: 1
 --- !u!114 &-3729944186411553257
 MonoBehaviour:
@@ -224,10 +251,10 @@ MonoBehaviour:
   Path: Assets/Audiofmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639136060478528146
+  lastModified: 639142106264177083
   FileSizes:
   - Name: Desktop
-    Value: 5057920
+    Value: 5059072
   Exists: 1
 --- !u!114 &-2879720072022720019
 MonoBehaviour:
@@ -387,13 +414,14 @@ MonoBehaviour:
   - {fileID: -4609492932857331205}
   - {fileID: 5270708804288859336}
   - {fileID: -7420813573331573970}
+  - {fileID: -7341962723343092206}
   EditorParameters: []
   MasterBanks:
   - {fileID: -3397890014935947704}
   StringsBanks:
   - {fileID: -4390287512026710578}
   cacheVersion: 131859
-  cacheTime: 639136060478537470
+  cacheTime: 639142106264197159
   SerializableEventsDict:
   - key: event:/amb/amb_tavern
     index: 0
@@ -413,6 +441,8 @@ MonoBehaviour:
     index: 7
   - key: event:/footsteps/footsteps
     index: 8
+  - key: snapshot:/Outside
+    index: 9
 --- !u!114 &4916359977929838767
 MonoBehaviour:
   m_ObjectHideFlags: 0
