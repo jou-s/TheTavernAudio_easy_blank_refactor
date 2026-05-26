@@ -35,7 +35,7 @@ public class Doors : MonoBehaviour, IInteractable
             doorsOpened = !doorsOpened;
             StartCoroutine(RotateDoors(doorsOpened ? -65 : 65));
             PlaySound();
-            RoomsSnap();
+            //RoomsSnap();
         }
     }
 
@@ -77,34 +77,34 @@ public class Doors : MonoBehaviour, IInteractable
         doorsSoundInstance.set3DAttributes(RuntimeUtils.To3DAttributes(gameObject.transform));
         
         // Ustawia parametr "Doors" w zależności od stanu drzwi.
-        string parameterLabel = doorsOpened ? "Open" : "Close";
-        doorsSoundInstance.setParameterByNameWithLabel("Doors", parameterLabel);
+        string parameterLabel = doorsOpened ? "open" : "closed";
+        doorsSoundInstance.setParameterByNameWithLabel("doors", parameterLabel);
         
         doorsSoundInstance.start();
     }
 
-    /// <summary>
-    /// Aktywuje lub dezaktywuje snapshot dźwiękowy pokoju.
-    /// </summary>
-    private void RoomsSnap()
-    {
-        RoomAmbient roomAmbient = FindObjectOfType<RoomAmbient>();
+    //    /// <summary>
+    //    /// Aktywuje lub dezaktywuje snapshot dźwiękowy pokoju.
+    //    /// </summary>
+    //    private void RoomsSnap()
+    //    {
+    //        RoomAmbient roomAmbient = FindObjectOfType<RoomAmbient>();
 
-        // Logika włączania i wyłączania snapshotu.
-        if (roomAmbient.ambientActivated && doorsOpened)
-        {
-            // Dezaktywuje snapshot.
-            if (insideRoomSnapshot.isValid())
-            {
-                insideRoomSnapshot.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-                insideRoomSnapshot.release();
-            }
-        }
-        else if (roomAmbient.ambientActivated && !doorsOpened)
-        {
-            // Aktywuje snapshot.
-            insideRoomSnapshot = RuntimeManager.CreateInstance(insideRoomSnap);
-            insideRoomSnapshot.start();
-        }
-    }
+    //        // Logika włączania i wyłączania snapshotu.
+    //        if (roomAmbient.ambientActivated && doorsOpened)
+    //        {
+    //            // Dezaktywuje snapshot.
+    //            if (insideRoomSnapshot.isValid())
+    //            {
+    //                insideRoomSnapshot.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+    //                insideRoomSnapshot.release();
+    //            }
+    //        }
+    //        else if (roomAmbient.ambientActivated && !doorsOpened)
+    //        {
+    //            // Aktywuje snapshot.
+    //            insideRoomSnapshot = RuntimeManager.CreateInstance(insideRoomSnap);
+    //            insideRoomSnapshot.start();
+    //        }
+    //    }
 }

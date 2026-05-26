@@ -7,6 +7,9 @@
 		<property name="name">
 			<value>Reverb</value>
 		</property>
+		<relationship name="masters">
+			<destination>{d831bdb5-ec04-4d6c-89db-d8bfcb869e79}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{2c839368-cd18-4251-9851-05ed27575092}</destination>
 		</relationship>

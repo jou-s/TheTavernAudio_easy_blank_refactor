@@ -83,6 +83,32 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-6512856234689753447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/door/doors
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: doors
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3579340090
+    data2: 470391655
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - open
+  - closed
+  Exists: 1
 --- !u!114 &-6493580893659759592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,30 +191,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 900
---- !u!114 &-4406320099107535493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/door/door
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
-  Name: door
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 2799680814
-    data2: 2511602236
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &-4390287512026710578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,10 +206,10 @@ MonoBehaviour:
   Path: Assets/Audiofmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639142106264197159
+  lastModified: 639154205843484820
   FileSizes:
   - Name: Desktop
-    Value: 1448
+    Value: 1670
   Exists: 1
 --- !u!114 &-3729944186411553257
 MonoBehaviour:
@@ -251,10 +253,10 @@ MonoBehaviour:
   Path: Assets/Audiofmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639142106264177083
+  lastModified: 639154205843474814
   FileSizes:
   - Name: Desktop
-    Value: 5059072
+    Value: 5060096
   Exists: 1
 --- !u!114 &-2879720072022720019
 MonoBehaviour:
@@ -385,7 +387,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: -4406320099107535493}
+  - {fileID: -6512856234689753447}
   MinDistance: 1
   MaxDistance: 20
   Length: 2020
@@ -421,7 +423,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -4390287512026710578}
   cacheVersion: 131859
-  cacheTime: 639142106264197159
+  cacheTime: 639154205843484820
   SerializableEventsDict:
   - key: event:/amb/amb_tavern
     index: 0

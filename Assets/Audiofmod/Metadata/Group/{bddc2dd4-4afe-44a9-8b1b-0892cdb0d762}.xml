@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>Inside</value>
 		</property>
+		<relationship name="masters">
+			<destination>{d831bdb5-ec04-4d6c-89db-d8bfcb869e79}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{7c711a54-8ab7-43cf-ba59-39149bb4b66d}</destination>
 		</relationship>

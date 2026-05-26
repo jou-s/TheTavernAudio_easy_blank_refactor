@@ -86,7 +86,7 @@
 //    private void MusicSwitch()
 //    {
 //        // EVENT
-//        FMOD.Studio.EventInstance Music; // Deklaracja zmiennej, która będzie przechowywać instancję eventu Footsteps.
+//        //FMOD.Studio.EventInstance Music; // Deklaracja zmiennej, która będzie przechowywać instancję eventu Footsteps.
 //         private EventReference musicEvent = "events:/nazwa_eventu"; // Deklaracja publicznego pola, które przechowuje referencję do pliku z eventem Footsteps.
 
 //    [SerializeField]
